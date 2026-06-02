@@ -26,7 +26,7 @@ interactive Sales &amp; Product Analysis Dashboard built with Tableau.
 ### 1. Total Sales Dashboard
 This macro-view dashboard focuses on high-level operational metrics, geographic distributions, and temporal trends.
 
-![Total Sales Dashboard](tableau lab 1.jpg)
+![Total Sales Dashboard](Images/tableau%20lab%201.jpg)
 
 *   KPI Summary Block: Dynamic display tracking overall performance metrics (e.g., Total Quantity: 33,769).
 *   Orders Per Category: Bar chart highlighting total orders driven by primary sectors (Electronics, Hardware, Home Appliances, Accessories, Office Supplies).
@@ -41,7 +41,7 @@ This macro-view dashboard focuses on high-level operational metrics, geographic 
 ### 2. Products Analysis Dashboard
 An operational deep-dive dashboard designed to drill down into product performance and inventory metrics.
 
-![Products Analysis Dashboard](tableau lab 2.jpg)
+![Products Analysis Dashboard](Images/tableau%20lab%202.jpg)
 
 *   Dynamic Top N Products: Parameter-driven bar chart showing the highest volume individual items (e.g., Widget AL, Item Z, Tool BA) with custom threshold controls.
 *   Category Products Expand: A structured matrix view detailing exact order counts across major and sub-categories.
