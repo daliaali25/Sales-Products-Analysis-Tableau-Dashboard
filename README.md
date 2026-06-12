@@ -1,70 +1,69 @@
-# E-Commerce Sales & Products Performance Tableau Dashboard
+# E-Commerce Sales & Products Analysis — Tableau
 
-An interactive, dual-dashboard Tableau project designed to analyze e-commerce retail data. This project delivers actionable insights into total sales performance, customer demographics, geographic distributions, and granular product-level metrics to drive strategic decision-making.
+> An interactive dual-dashboard system that answers three core business questions: which product categories drive growth, how geography shapes order volume, and where quantity sold and profit margin intersect.
 
----
-
-## 📊 Project Overview
-
-interactive Sales &amp; Product Analysis Dashboard built with Tableau. 
-​The goal wasn’t just to visualize numbers, but to create a tool that answers critical business questions: - ​Which product categories are driving our growth? - ​How do geographic trends impact our order volume? - ​Where is the sweet spot between quantity sold and average profit?
-
-### Key Objectives:
-*   Track KPI Metrics: Monitor overall quantity, total orders, and average profit margins.
-*   Analyze Customer Demographics: Breakdown sales distribution by gender and location.
-*   Optimize Product Portfolio: Identify top-performing items and structural category expansions.
-*   Trend Identification: Trace monthly sales and order behavior across the calendar year.
-
-
-
-🔗 [View Interactive Dashboard on Tableau Public](https://public.tableau.com/views/lab1extract/TotalSalesDachboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[![Tableau Public](https://img.shields.io/badge/View%20Live%20Dashboard-E97627?style=flat&logo=tableau&logoColor=white)](https://public.tableau.com/views/lab1extract/TotalSalesDachboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
-## 🖥️ Dashboard Architecture
+## Dashboards
 
 ### 1. Total Sales Dashboard
-This macro-view dashboard focuses on high-level operational metrics, geographic distributions, and temporal trends.
 
 ![Total Sales Dashboard](Images/tableau%20lab%201.jpg)
 
-*   KPI Summary Block: Dynamic display tracking overall performance metrics (e.g., Total Quantity: 33,769).
-*   Orders Per Category: Bar chart highlighting total orders driven by primary sectors (Electronics, Hardware, Home Appliances, Accessories, Office Supplies).
-*   Gender Demographics: Clear pie chart analyzing customer gender distribution (51% Male vs 49% Female).
-*   Orders Per Month: A continuous dual/line trend tracking Final Price and order behavior across the months of the year.
-*   Avg Profit by Category: Granular insights into which product segments net the highest financial returns (led by Home Appliances).
-*   Geographic Sales Map: Filled US interactive map tracking localized orders and volumes across major states (CA, TX, NY, etc.).
-*   Advanced Filtering: Top-level parameters for Category, State, Chart type toggles, Show/Hide controls, and KPI selections.
+A macro-level view of business performance across time, geography, and customer demographics.
+
+| Visual | What it answers |
+|--------|----------------|
+| KPI summary block | Overall quantity (33,769 units), orders, and margins at a glance |
+| Orders per category bar chart | Which of the 5 segments (Electronics, Hardware, Home Appliances, Accessories, Office Supplies) drives the most volume |
+| Gender demographic pie chart | 51% male / 49% female — near-equal customer split |
+| Monthly orders & final price line chart | Seasonal trends and pricing behavior across the calendar year |
+| Avg profit by category | Home Appliances leads in profit margin despite lower order volume than Electronics |
+| US geographic sales map | State-level order concentration across CA, TX, NY, and other major markets |
+
+**Filtering:** Category, State, chart type toggle, Show/Hide controls, KPI selector.
 
 ---
 
 ### 2. Products Analysis Dashboard
-An operational deep-dive dashboard designed to drill down into product performance and inventory metrics.
 
 ![Products Analysis Dashboard](Images/tableau%20lab%202.jpg)
 
-*   Dynamic Top N Products: Parameter-driven bar chart showing the highest volume individual items (e.g., Widget AL, Item Z, Tool BA) with custom threshold controls.
-*   Category Products Expand: A structured matrix view detailing exact order counts across major and sub-categories.
-*   Quantity/Orders per Category: A dual-axis combined bar and line chart visualizing the relationship between bulk quantities sold and absolute order count volume.
+An operational deep-dive into individual product and category performance.
+
+| Visual | What it answers |
+|--------|----------------|
+| Dynamic Top N products chart | Parameter-driven ranking of highest-volume individual items (Widget AL, Item Z, Tool BA) |
+| Category products matrix | Exact order counts broken down by major and sub-category |
+| Quantity vs. orders combo chart | Dual-axis view showing where high quantity ≠ high order count — and vice versa |
+
+**Navigation:** Custom synchronized buttons route between the two dashboards for seamless exploration.
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## Key Insights
 
-*   Data Visualization: Tableau Desktop
-*   Mapping Technology: Mapbox / OpenStreetMap integrations
-*   Design Elements: Custom synchronized navigation buttons (*"To Total Sales Analysis"* / *"To Products Analysis Dashboard"*) for seamless UX.
-
----
-
-## 💡 Key Insights Captured
-
-*   Top Category Driver: Electronics consistently drives the highest absolute volume of orders.
-*   Profitability vs. Volume: While Electronics leads in volume, Home Appliances yields the highest Average Profit margin per sale.
-*   Demographic Balance: Customer retention and buying habits show a nearly equal split between male and female demographics.
+- **Volume leader:** Electronics drives the highest absolute order count across all categories.
+- **Profit leader:** Home Appliances yields the highest average profit per sale — volume and margin tell different stories.
+- **Demographic balance:** A near-50/50 gender split suggests broadly universal product appeal, not a niche audience.
 
 ---
 
-## 🚀 How to Interact with the Dashboard
+## Tools
 
-1. Click the [Tableau Public Link](https://public.tableau.com/views/lab1extract/TotalSalesDachboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) at the top of this page to interact with the live dashboard directly in your browser.
+| Tool | Usage |
+|------|-------|
+| Tableau Desktop | Dashboard design, calculated fields, parameter controls |
+| Mapbox / OpenStreetMap | Geographic map layer |
+| Tableau Public | Hosting and sharing |
+
+---
+
+## How to explore
+
+1. Open the [live Tableau Public dashboard](https://public.tableau.com/views/lab1extract/TotalSalesDachboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) in your browser.
+2. Use the filter controls at the top to slice by Category, State, or KPI.
+3. Toggle between dashboards using the navigation buttons at the top right.
+4. Hover over any chart element for detailed tooltips.e dashboard directly in your browser.
